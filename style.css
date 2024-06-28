@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+   }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.left-section,
+.right-section {
+    width: 100%;
+}
+
+.pointing-woman {
+    width: 100%;
+    height: 50%;
+
+}
+.left-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20%;
+
+}
+
+.right-section {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #b20000;
+    font-size: 35px;
+    font-weight:800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.consultation-form {
+    background-color: #ffffff;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -10px 10px 24px rgba(0, 0, 0, 0.149);
+    margin-bottom: 20px;
+}
+.dashed{
+    
+    border-top:2px dashed black;
+    border-bottom:2px dashed black;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.consultation-form h2 {
+    color: #b20000;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.consultation-form input,
+.consultation-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    
+    border: none;
+    background-color: #b20000;
+}
+
+.consultation-form button {
+    background-color: hsl(0, 0%, 100%);
+    color: #b20000;
+    padding: 10px 20px;
+    font-size: x-large;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+
+.consultation-form button:hover {
+    background-color: #ffffff;
+    color: #cc6969f8;
+}
+
+.features {
+    list-style-type: disc;
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.features li {
+    margin: 5px 0;
+}
+.consultation-form .line{
+    border-bottom : 1px solid black;
+}
+h3 {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #b20000;
+    font-weight: 800;
+    
+    
+}
+.holistic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #b20000;
+    font-weight: 800;
+    font-size: 22px;
+    }
+.holistic .better{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+.aboutmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutmain span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #b20000;
+}
+.about {
+    background-color: #b20000;
+    color: #fff;
+    padding: 7px;
+    border-radius: 55px;
+    margin: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #b20000;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.experts{
+    background-color: #b20000;
+    padding: 0.1px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-size: 13px;
+    font-weight: 800;
+    border-radius: 38px;
+    margin-left: 89px;
+    width:45%;
+    height:68px;
+    box-shadow: 1px 5px  0px grey;
+}
+
+
+@media (min-width: 768px) {
+    main {
+        flex-direction: row;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%;
+    }
+
+    .right-section {
+        padding: 20px;
+        padding-top: 0px;
+    }
+    .aboutmain{
+        padding-left: 20px;
+        padding-right: 20px;
+        transform: translateX(-250px);
+        width: 150%;
+    }
+    .pointing-woman{
+        width: 140%;
+    }
+    .experts{
+        background-color: #b20000;
+        padding: 0.1px;
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;   
+        font-size: 13px;
+        font-weight: 800;
+        border-radius: 30px;
+       
+        margin-left: 0;
+        width:25%;
+        height:68px;
+        box-shadow: 1px 5px  0px grey;
+    }   
+}
